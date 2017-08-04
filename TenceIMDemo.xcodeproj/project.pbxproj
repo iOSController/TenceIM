@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06670F41F32FE2F00A86758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06670F31F32FE2F00A86758 /* main.m */; };
+		B06670F71F32FE2F00A86758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06670F61F32FE2F00A86758 /* AppDelegate.m */; };
+		B06670FA1F32FE2F00A86758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06670F91F32FE2F00A86758 /* ViewController.m */; };
+		B06670FD1F32FE2F00A86758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06670FB1F32FE2F00A86758 /* Main.storyboard */; };
+		B06670FF1F32FE2F00A86758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06670FE1F32FE2F00A86758 /* Assets.xcassets */; };
+		B06671021F32FE2F00A86758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06671001F32FE2F00A86758 /* LaunchScreen.storyboard */; };
+		B06671161F33394B00A86758 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B06671151F33394B00A86758 /* ChatModel.m */; };
+		B06671191F33397A00A86758 /* ChatInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = B06671181F33397A00A86758 /* ChatInputView.m */; };
+		B066711C1F33399900A86758 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B066711B1F33399900A86758 /* ChatTableViewCell.m */; };
+		B066711F1F33416E00A86758 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B066711E1F33416E00A86758 /* CoreTelephony.framework */; };
+		B06671211F33417C00A86758 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06671201F33417C00A86758 /* SystemConfiguration.framework */; };
+		B06671231F33418E00A86758 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B06671221F33418E00A86758 /* libstdc++.6.tbd */; };
+		B06671251F33419F00A86758 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B06671241F33419F00A86758 /* libc++.tbd */; };
+		B06671271F3341AA00A86758 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B06671261F3341AA00A86758 /* libz.tbd */; };
+		B06671291F3341BD00A86758 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B06671281F3341BD00A86758 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B06670EF1F32FE2F00A86758 /* TenceIMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenceIMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06670F31F32FE2F00A86758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B06670F51F32FE2F00A86758 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B06670F61F32FE2F00A86758 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B06670F81F32FE2F00A86758 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B06670F91F32FE2F00A86758 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B06670FC1F32FE2F00A86758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B06670FE1F32FE2F00A86758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06671011F32FE2F00A86758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B06671031F32FE2F00A86758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06671141F33394B00A86758 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		B06671151F33394B00A86758 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		B06671171F33397A00A86758 /* ChatInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatInputView.h; sourceTree = "<group>"; };
+		B06671181F33397A00A86758 /* ChatInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatInputView.m; sourceTree = "<group>"; };
+		B066711A1F33399900A86758 /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		B066711B1F33399900A86758 /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		B066711E1F33416E00A86758 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B06671201F33417C00A86758 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B06671221F33418E00A86758 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		B06671241F33419F00A86758 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B06671261F3341AA00A86758 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B06671281F3341BD00A86758 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06670EC1F32FE2F00A86758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06671291F3341BD00A86758 /* libsqlite3.tbd in Frameworks */,
+				B06671271F3341AA00A86758 /* libz.tbd in Frameworks */,
+				B06671251F33419F00A86758 /* libc++.tbd in Frameworks */,
+				B06671231F33418E00A86758 /* libstdc++.6.tbd in Frameworks */,
+				B06671211F33417C00A86758 /* SystemConfiguration.framework in Frameworks */,
+				B066711F1F33416E00A86758 /* CoreTelephony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06670E61F32FE2F00A86758 = {
+			isa = PBXGroup;
+			children = (
+				B06670F11F32FE2F00A86758 /* TenceIMDemo */,
+				B06670F01F32FE2F00A86758 /* Products */,
+				B066711D1F33416E00A86758 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B06670F01F32FE2F00A86758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06670EF1F32FE2F00A86758 /* TenceIMDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06670F11F32FE2F00A86758 /* TenceIMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B06671121F33392E00A86758 /* Model */,
+				B06671131F33392E00A86758 /* View */,
+				B06671091F332CA800A86758 /* LIB */,
+				B06670F51F32FE2F00A86758 /* AppDelegate.h */,
+				B06670F61F32FE2F00A86758 /* AppDelegate.m */,
+				B06670F81F32FE2F00A86758 /* ViewController.h */,
+				B06670F91F32FE2F00A86758 /* ViewController.m */,
+				B06670FB1F32FE2F00A86758 /* Main.storyboard */,
+				B06670FE1F32FE2F00A86758 /* Assets.xcassets */,
+				B06671001F32FE2F00A86758 /* LaunchScreen.storyboard */,
+				B06671031F32FE2F00A86758 /* Info.plist */,
+				B06670F21F32FE2F00A86758 /* Supporting Files */,
+			);
+			path = TenceIMDemo;
+			sourceTree = "<group>";
+		};
+		B06670F21F32FE2F00A86758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B06670F31F32FE2F00A86758 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B06671091F332CA800A86758 /* LIB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LIB;
+			sourceTree = "<group>";
+		};
+		B06671121F33392E00A86758 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B06671141F33394B00A86758 /* ChatModel.h */,
+				B06671151F33394B00A86758 /* ChatModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B06671131F33392E00A86758 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B06671171F33397A00A86758 /* ChatInputView.h */,
+				B06671181F33397A00A86758 /* ChatInputView.m */,
+				B066711A1F33399900A86758 /* ChatTableViewCell.h */,
+				B066711B1F33399900A86758 /* ChatTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B066711D1F33416E00A86758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06671281F3341BD00A86758 /* libsqlite3.tbd */,
+				B06671261F3341AA00A86758 /* libz.tbd */,
+				B06671241F33419F00A86758 /* libc++.tbd */,
+				B06671221F33418E00A86758 /* libstdc++.6.tbd */,
+				B06671201F33417C00A86758 /* SystemConfiguration.framework */,
+				B066711E1F33416E00A86758 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06670EE1F32FE2F00A86758 /* TenceIMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06671061F32FE2F00A86758 /* Build configuration list for PBXNativeTarget "TenceIMDemo" */;
+			buildPhases = (
+				B06670EB1F32FE2F00A86758 /* Sources */,
+				B06670EC1F32FE2F00A86758 /* Frameworks */,
+				B06670ED1F32FE2F00A86758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenceIMDemo;
+			productName = TenceIMDemo;
+			productReference = B06670EF1F32FE2F00A86758 /* TenceIMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06670E71F32FE2F00A86758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "林任任";
+				TargetAttributes = {
+					B06670EE1F32FE2F00A86758 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 727BBL8V26;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B06670EA1F32FE2F00A86758 /* Build configuration list for PBXProject "TenceIMDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06670E61F32FE2F00A86758;
+			productRefGroup = B06670F01F32FE2F00A86758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06670EE1F32FE2F00A86758 /* TenceIMDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06670ED1F32FE2F00A86758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06671021F32FE2F00A86758 /* LaunchScreen.storyboard in Resources */,
+				B06670FF1F32FE2F00A86758 /* Assets.xcassets in Resources */,
+				B06670FD1F32FE2F00A86758 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06670EB1F32FE2F00A86758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06671191F33397A00A86758 /* ChatInputView.m in Sources */,
+				B06670FA1F32FE2F00A86758 /* ViewController.m in Sources */,
+				B06670F71F32FE2F00A86758 /* AppDelegate.m in Sources */,
+				B06670F41F32FE2F00A86758 /* main.m in Sources */,
+				B06671161F33394B00A86758 /* ChatModel.m in Sources */,
+				B066711C1F33399900A86758 /* ChatTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B06670FB1F32FE2F00A86758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06670FC1F32FE2F00A86758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B06671001F32FE2F00A86758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06671011F32FE2F00A86758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B06671041F32FE2F00A86758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B06671051F32FE2F00A86758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06671071F32FE2F00A86758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 727BBL8V26;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TenceIMDemo/LIB",
+				);
+				INFOPLIST_FILE = TenceIMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fff.demo.TenceIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B06671081F32FE2F00A86758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 727BBL8V26;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TenceIMDemo/LIB",
+				);
+				INFOPLIST_FILE = TenceIMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fff.demo.TenceIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06670EA1F32FE2F00A86758 /* Build configuration list for PBXProject "TenceIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06671041F32FE2F00A86758 /* Debug */,
+				B06671051F32FE2F00A86758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06671061F32FE2F00A86758 /* Build configuration list for PBXNativeTarget "TenceIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06671071F32FE2F00A86758 /* Debug */,
+				B06671081F32FE2F00A86758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06670E71F32FE2F00A86758 /* Project object */;
+}
